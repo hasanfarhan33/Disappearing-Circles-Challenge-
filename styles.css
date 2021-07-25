@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.circle1,
+.circle2,
+.circle3 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.circle1 {
+  background-color: lightblue;
+}
+
+.circle2 {
+  background-color: lightsalmon;
+}
+
+.circle3 {
+  background-color: lightseagreen;
+}
